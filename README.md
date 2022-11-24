@@ -37,3 +37,13 @@ Use this rather than creating a new commit. This is to keep graphite from breaki
 ## checking logs for graphite
 
 use gt log to check your stacks for a project
+
+## Merging Branches
+
+function gs
+  gt repo sync --force && \
+  gt stack restack && \
+  gt stack submit --no-interactive $argv; 
+end
+
+
