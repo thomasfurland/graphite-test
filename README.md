@@ -23,3 +23,17 @@ can use gt branch up 2 to move up 2
 
 use gt branch down
 can also use with numbers to move multiple branches
+
+these commands only work if the code is uncommited. Don't commit any code. Run this only at the beginning
+
+## Make changes to the exisiting commit
+
+function app
+  git add . && git commit --amend --no-edit && git push --force-with-lease $argv; 
+end
+
+Use this rather than creating a new commit. This is to keep graphite from breaking.
+
+## checking logs for graphite
+
+use gt log to check your stacks for a project
