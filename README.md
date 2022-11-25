@@ -2,15 +2,8 @@
 
 npm install -g @withgraphite/graphite-cli
 
-maybe one more up above
-add line here
-add another here and ammend
-
 to init a repo for tracking with graphite
 gt repo init
-
-mega conflict withgraphite
-another change here
 
 ## Create a branch with a commit and opens up a draft pr
 
@@ -52,5 +45,3 @@ function gs
   gt stack restack && \
   gt stack submit --no-interactive $argv; 
 end
-
-
