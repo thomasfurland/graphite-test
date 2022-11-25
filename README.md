@@ -2,6 +2,9 @@
 
 npm install -g @withgraphite/graphite-cli
 
+add line here
+add another here and ammend
+
 to init a repo for tracking with graphite
 gt repo init
 
