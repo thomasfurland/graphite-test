@@ -9,8 +9,7 @@ to init a repo for tracking with graphite
 gt repo init
 
 mega conflict withgraphite
-and with all the code
-right here I think
+another change here
 
 ## Create a branch with a commit and opens up a draft pr
 
